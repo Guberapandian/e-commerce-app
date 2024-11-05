@@ -8,7 +8,7 @@ WORKDIR /app
 COPY target/product-catalog-service.jar /app/product-catalog-service.jar
 
 # Expose the port on which the service runs
-EXPOSE 8080
+EXPOSE 8081
 
 # Command to run the application
 CMD ["java", "-jar", "/app/product-catalog-service.jar"]

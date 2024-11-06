@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: user-service
-          image: <your-ecr-repo-uri>/user-service:latest
+          image: 762233769537.dkr.ecr.ap-southeast-1.amazonaws.com/user-service
           ports:
             - containerPort: 8082
 ---

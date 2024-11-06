@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: product-catalog-service
-          image: <your-ecr-repo-uri>/product-catalog-service:latest
+          image: 762233769537.dkr.ecr.ap-southeast-1.amazonaws.com/product-catalog-service
           ports:
             - containerPort: 8081
 ---

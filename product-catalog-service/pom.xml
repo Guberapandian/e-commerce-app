@@ -39,7 +39,7 @@
                 <configuration>
                     <archive>
                         <manifest>
-                            <mainClass>com.example.MainClass</mainClass> <!-- Replace with your actual main class path -->
+                            <mainClass>com.example.productcatalog.ProductCatalogApplication</mainClass>
                         </manifest>
                     </archive>
                 </configuration>
